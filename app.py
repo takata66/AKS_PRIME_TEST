@@ -67,5 +67,5 @@ def is_prime_aks(n):
     return check_polynomial(n, r)  # Проверяем многочлен, если условие выполняется, возвращаем True
 
 # Пример использования:
-n = 1000000
-print(f"{n} is prime: {is_prime_aks(n)}")  # Проверяем число 1000367
+for n in range(1,1000000):
+    print(f"{n} is prime: {is_prime_aks(n)}") # проверяем числа от 1 до миллиона
